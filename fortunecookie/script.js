@@ -3,13 +3,13 @@ const fortunes_array = [
 
     "You will experience a great increase of rain.",
 
-    "Today will be your day of luck.",
+    "Today will be full of abundance.",
 
     "Beware of pink mice.",
 
     "Do whats been on your mind, it's time.",
 
-    "Your ivestments will come to profit.",
+    "Your investments will come to profit.",
 
     "A quest comes your way.",
 
@@ -17,7 +17,7 @@ const fortunes_array = [
 
     "Out of luck.",
 
-    "Keep an eye out for lucky pennies, luck comes you way.",
+    "Keep an eye out for lucky pennies, luck comes your way.",
 
 ];
 

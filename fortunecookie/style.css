@@ -29,11 +29,11 @@ button
 @keyframes shake
 {
     0%, 100% {transform: rotate(0deg);}
-    25% {transform: rotate(-12deg);}
-    75% {transform: rotate(12deg);}
+    25% {transform: rotate(-2deg);}
+    75% {transform: rotate(2deg);}
 }
 
 .shaking
 {
-    animation: shake 0.4 ease;
+    animation: shake 0.4s ease;
 }
