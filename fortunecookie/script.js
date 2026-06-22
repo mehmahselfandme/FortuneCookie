@@ -33,7 +33,7 @@ async function crackCookie()
 
     cookie.addEventListener
     ("animationend", 
-        funtion ()
+        function ()
         {
             cookie.classList.remove("shaking");
         },
