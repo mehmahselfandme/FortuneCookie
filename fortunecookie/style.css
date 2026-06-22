@@ -1,0 +1,39 @@
+body
+{
+    background-color: darkgrey;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: medium;
+    display: block;
+    flex-direction: column;
+    align-items: center;
+}
+
+button
+{
+    background-color: antiquewhite;
+    border-color: azure;
+}
+
+#fortune
+{
+    color: black;
+    opacity: 0;
+    transition: opacity 0.8s ease;
+}
+
+#fortune.visible
+{
+    opacity: 1;
+}
+
+@keyframes shake
+{
+    0%, 100% {transform: rotate(0deg);}
+    25% {transform: rotate(-12deg);}
+    75% {transform: rotate(12deg);}
+}
+
+.shaking
+{
+    animation: shake 0.4 ease;
+}
